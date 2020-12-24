@@ -1,0 +1,256 @@
+body * {
+    transition: all 0.3s;
+}
+.darkmode-toggle {
+    z-index: 10;
+    border: 1px solid rgba(0, 0, 0, 0.238) !important;
+}
+
+.darkmode-layer {
+    background-color: transparent;
+}
+
+.darkmode-toggle:hover,
+.darkmode-toggle.focus,
+.darkmode-toggle.active {
+    border: none;
+    outline:none;
+}
+
+.darkmode-toggle:hover {
+    background-color: #999999;
+}
+
+body.darkmode--activated {
+    color: #e1e1e0;
+    background-color: #242424;
+}
+
+.darkmode--activated h1,
+.darkmode--activated a:focus,
+.darkmode--activated a:hover {
+    color: #ffffff !important;
+}
+
+.darkmode--activated a:link,
+.darkmode--activated a:visited {
+    color: #6392a7;
+}
+
+.darkmode--activated thead th a:link,
+.darkmode--activated thead th a:visited {
+    color: #bfbfbf;
+}
+
+.darkmode--activated table {
+    border-color: #4c4d4b;
+}
+
+.darkmode--activated table thead th {
+    background: #333333;
+    color: #e1e1e0;
+}
+
+.darkmode--activated table thead th.sorted {
+    background-color: #464646;
+}
+
+.darkmode--activated table td,
+.darkmode--activated table th {
+    border-bottom: 1px solid #4c4d4b;
+}
+
+.darkmode--activated tr:nth-child(odd),
+.darkmode--activated .row-form-errors {
+    background-color: rgba(255, 255, 255, .05);
+}
+
+.darkmode--activated select,
+.darkmode--activated tr:nth-child(even),
+.darkmode--activated tr:nth-child(even) .errorlist,
+.darkmode--activated tr:nth-child(odd)+.row-form-errors,
+.darkmode--activated tr:nth-child(odd)+.row-form-errors .errorlist {
+    background-color: #343a40 !important;
+}
+
+.darkmode--activated ,
+.darkmode--activated .content,
+.darkmode--activated #content,
+.darkmode--activated #footer,
+.darkmode--activated .module,
+.darkmode--activated #changelist {
+    background-color: #000;
+}
+
+.darkmode--activated #header {
+    background-color: #254656;
+}
+
+.darkmode--activated div.breadcrumbs {
+    background-color: #4d6673;
+}
+
+.darkmode--activated #content-related {
+    background-color: #333333 !important;;
+}
+
+.darkmode--activated #content-related .module h2 {
+    color: #666666;
+}
+
+.darkmode--activated #changelist .paginator {
+    background-color: transparent;
+}
+
+.darkmode--activated #changelist #toolbar {
+    background-color: #333333;
+    border-top: 1px solid #4c4d4b;
+    border-bottom: 1px solid #4c4d4b;
+}
+
+.darkmode--activated .addlink,
+.darkmode--activated #changelist #toolbar form input {
+    color: #ffffff !important;
+}
+
+.darkmode--activated #changelist .toplinks {
+    border-bottom-color: #4c4d4b;
+}
+
+.darkmode--activated #toolbar form #searchbar {
+    border-color: #4c4d4b;
+    background-color: #242424;
+}
+
+.darkmode--activated #changelist-filter {
+    background: #333333;
+}
+
+.darkmode--activated #recent-actions-module {
+    background: #333333;
+}
+
+.darkmode--activated a:link,
+.darkmode--activated a:visited {
+    color: rgb(180, 208, 243);
+}
+
+.darkmode--activated .module h2,
+.darkmode--activated .module caption,
+.darkmode--activated .inline-group h2 {
+    background-color: #33424a;
+}
+
+.darkmode--activated .quiet,
+.darkmode--activated a.quiet:link,
+.darkmode--activated a.quiet:visited {
+    color: #d8d8d8;
+}
+
+.darkmode--activated #changelist #toolbar form input[type="submit"],
+.darkmode--activated #changelist .actions .button {
+    color: #ffffff;
+    background-color: #6b6b68;
+}
+
+.darkmode--activated #changelist .actions select {
+    color: #ffffff;
+    background-color: #6b6b68;
+}
+
+.darkmode--activated #changelist .actions {
+    background: none;
+    color: #ffffff;
+}
+
+.darkmode--activated .row1 {
+    background: #292929;
+}
+
+.darkmode--activated .row2 {
+    background: #242424;
+}
+
+.darkmode--activated fieldset.collapsed h2 {
+    background: #333333;
+}
+
+.darkmode--activated input[type=text],
+.darkmode--activated input[type=password],
+.darkmode--activated input[type=email],
+.darkmode--activated input[type=url],
+.darkmode--activated input[type=number],
+.darkmode--activated input[type=tel],
+.darkmode--activated textarea,
+.darkmode--activated select,
+.darkmode--activated .vTextField {
+    background: #6b6b68;
+    color: #ffffff;
+}
+
+.darkmode--activated label,
+.darkmode--activated .required label,
+.darkmode--activated label.required {
+    color: #e1e1e0;
+}
+
+.darkmode--activated .submit-row {
+    background-color: transparent;
+}
+
+.darkmode--activated .img-invertable {
+    filter: invert(0.7);
+}
+
+.darkmode--activated fieldset a {
+    color: #cff0ff !important;
+}
+
+.darkmode--activated .inline-related h3 {
+    background: transparent;
+}
+
+.darkmode--activated .inline-related fieldset {
+    background-color: #333333;
+}
+
+.darkmode--activated .inline-group div.add-row,
+.darkmode--activated .inline-group .tabular tr.add-row td {
+    background-color: #464646;
+}
+
+.darkmode--activated table thead th .text a:focus,
+.darkmode--activated table thead th .text a:hover {
+    background-color: #464646;
+}
+
+.darkmode--activated .form-row {
+    border-bottom: 1px solid #4c4d4b;
+}
+
+.darkmode--activated fieldset.collapsed {
+    border: none;
+}
+
+.darkmode--activated .submit-row {
+    padding: 12px 0;
+    border: none;
+}
+
+.darkmode--activated #nav-sidebar {
+    border-right: 1px solid #454d55;
+    background-color: inherit;
+}
+
+.darkmode--activated .toggle-nav-sidebar {
+    background-color: #313131;
+    outline: none;
+    border: none;
+}
+
+.darkmode--activated .toggle-nav-sidebar:hover,
+.darkmode--activated .toggle-nav-sidebar:focus {
+    background-color: #424242;
+    outline: none;
+    border: none;
+}
