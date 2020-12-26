@@ -1,5 +1,5 @@
 body * {
-    transition: all 0.3s;
+    transition: all 0.1s;
 }
 .darkmode-toggle {
     z-index: 10;
@@ -7,7 +7,9 @@ body * {
 }
 
 .darkmode-layer {
+    width: 0 !important;
     background-color: transparent;
+    background: transparent;
 }
 
 .darkmode-toggle:hover,
@@ -74,6 +76,7 @@ body.darkmode--activated {
 }
 
 .darkmode--activated ,
+.darkmode--activated #main,
 .darkmode--activated .content,
 .darkmode--activated #content,
 .darkmode--activated #footer,
