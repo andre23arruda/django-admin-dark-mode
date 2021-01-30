@@ -1,15 +1,18 @@
 body * {
     transition: all 0.1s;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
+
 .darkmode-toggle {
     z-index: 10;
     border: 1px solid rgba(0, 0, 0, 0.238) !important;
 }
 
+.darkmode-background,
 .darkmode-layer {
     width: 0 !important;
-    background-color: transparent;
-    background: transparent;
+    background-color: transparent !important;
+    background: transparent !important;
 }
 
 .darkmode-toggle:hover,
@@ -19,9 +22,11 @@ body * {
     outline:none;
 }
 
-.darkmode-toggle:hover {
-    background-color: #999999;
+.darkmode-toggle:hover,
+.darkmode--activated .darkmode-toggle:hover {
+    background-color: #e2dddd44;
 }
+
 
 body.darkmode--activated {
     color: #e1e1e0;
@@ -256,4 +261,22 @@ body.darkmode--activated {
     background-color: #424242;
     outline: none;
     border: none;
+}
+
+.aligned label {
+    float: none !important;
+}
+
+.darkmode--activated .row1:not(.selected):hover,
+.darkmode--activated .row2:not(.selected):hover,
+.admin-interface.darkmode--activated #nav-sidebar .current-model {
+    background-color: #606060 !important;
+}
+
+.inline-group .tabular td.original p {
+    display: none;
+}
+
+.dashboard #content {
+    width:auto !important;
 }
