@@ -1,6 +1,5 @@
 body * {
     transition: all 0.1s;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
 .darkmode-toggle {
@@ -27,7 +26,7 @@ body * {
     background-color: #e2dddd44;
 }
 
-
+/*
 body.darkmode--activated {
     color: #e1e1e0;
     background-color: #242424;
@@ -58,6 +57,7 @@ body.darkmode--activated {
     color: #e1e1e0;
 }
 
+.darkmode--activated .select2-container--admin-autocomplete .select2-selection--multiple,
 .darkmode--activated table thead th.sorted {
     background-color: #464646;
 }
@@ -72,28 +72,18 @@ body.darkmode--activated {
     background-color: rgba(255, 255, 255, .05);
 }
 
+.darkmode--activated .select2-container--admin-autocomplete .select2-results__option[aria-selected],
+.darkmode--activated .select2-container--admin-autocomplete .select2-selection--multiple .select2-selection__choice,
 .darkmode--activated select,
 .darkmode--activated tr:nth-child(even),
 .darkmode--activated tr:nth-child(even) .errorlist,
 .darkmode--activated tr:nth-child(odd)+.row-form-errors,
 .darkmode--activated tr:nth-child(odd)+.row-form-errors .errorlist {
-    background-color: #343a40 !important;
+    background-color: #343a40;
 }
 
-.darkmode--activated .select2-dropdown,
-.darkmode--activated .select2-container--admin-autocomplete .select2-selection--single,
-.darkmode--activated .select2-container--admin-autocomplete .select2-selection--multiple{
-    background-color: #343a40 !important;
-}
-
-
-.darkmode--activated .select2-container--admin-autocomplete .select2-selection--single .select2-selection__rendered {
-    color: #fff;
-}
-
-.darkmode--activated .select2-container--admin-autocomplete .select2-search--dropdown .select2-search__field {
-    background-color: #6b6b68;
-    color: #ffffff;
+.darkmode--activated .select2-container--admin-autocomplete .select2-results__option--highlighted[aria-selected] {
+    background-color:rgb(80, 91, 105)
 }
 
 .darkmode--activated ,
@@ -296,3 +286,7 @@ body.darkmode--activated {
 .dashboard #content {
     width:auto !important;
 }
+
+.darkmode--activated #nav-sidebar .current-model {
+    background-color: #696969 !important;
+} */
