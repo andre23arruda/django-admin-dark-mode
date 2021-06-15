@@ -1,10 +1,10 @@
 <h1 align="center">
-    <img alt="Django" title="Harpia" src="images/django.svg" width="100px" />
+    <img alt="Django" title="Harpia" src="images/django.svg" width="70px" />
 </h1>
 
-<h4 align="center">
-  	Add dark mode to django admin.
-</h4>
+<h1 align="center">
+  	Dark mode toggle in Django Admin.
+</h1>
 
 ## Installation
 
