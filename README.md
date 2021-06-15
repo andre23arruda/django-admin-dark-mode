@@ -17,7 +17,11 @@ git clone https://github.com/andre23arruda/django-admin-dark-mode
 
 - Put __admin__ folder inside your django project's template folder
 
-- Put __css__ and __js__ folders in your static folder
+- Put __static/css__ folder in your static folder
+
+- Put __static/js__ folder in your static folder
+
+- Put __static/admin__ folder in your static folder
 
 
 <div align="center">
