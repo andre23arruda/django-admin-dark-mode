@@ -3,7 +3,7 @@
 </h1>
 
 <h1 align="center">
-  	Dark mode toggle in Django Admin.
+  	Dark mode toggle in Django Admin and DRF browsable API
 </h1>
 
 ## Installation
@@ -15,7 +15,9 @@ git clone https://github.com/andre23arruda/django-admin-dark-mode
 
 ```
 
-- Put __admin__ folder inside your django project's template folder
+- Put __templates/admin__ folder inside your django project's template folder
+
+- Put __templates/rest_framework__ folder inside your django project's template folder
 
 - Put __static/css__ folder in your static folder
 
