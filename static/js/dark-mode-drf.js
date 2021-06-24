@@ -14,5 +14,6 @@ function addDarkmodeWidget() {
     darkModeToggle.addEventListener('click', () => {
         document.querySelector('html').classList.toggle('dark')
     })
+    initDarkMode(darkmode)
 }
 window.addEventListener('load', addDarkmodeWidget)
